@@ -1,0 +1,23 @@
+En tant que chef de projet, vous êtes garant du développement d'applications rich media, mobiles, des sites internet et autres web services pour le compte de Visiplus et de ses clients.
+
+En bonne intelligence avec les intervenants internes (SEO, DA, CRM, Direction, etc.) vous développez et pilotez les projets de mise en ligne et d'exploitation d'applications web comprenant notamment les CMS (Wordpress, Drupal, Prestashop, Magento, etc.) ainsi que les frameworks PHP tels que (Codigniter, Zend, Symphony) et JS (Jquery, Angular).
+
+Vous participez à la mise à jour des sites en termes de contenus, de photos et de fonctionnalités.
+
+Analyse des besoins
+Définition des fonctionnalités des sites internet, du zoning des pages et du cahier des charges dans le respect des objectifs de transformation des dispositifs
+Développement et intégration des fonctionnalités
+Mise en ligne des nouveautés dans le respect des impératifs SEO et de commercialité
+Maintenance et gestion des évolutions
+Tester les fonctionnalités des sites et applications
+Procéder au déploiement des projets
+Assurer la cohérence entre l'ensemble des projets : et force de proposition sur les évolutions et les nouveaux projets
+Définir les ressources et leurs priorités pour les projets dont vous êtes responsable
+Assurer une veille technologique et concurrentielle
+Profil : 
+De formation supérieure en informatique (école d’ingénieur ou universitaire), vous possédez 2 à 3 ans d'expériences sur le même type de poste.
+
+Vous maîtrisez :
+HTML 5, CSS3, CMS (Open Source), XML - JSON - AJAX, PHP/MySQL, JQuery / Angular et Photoshop (maîtrise, au moins pour l'intégration, petit graphisme, ...),
+SEO : bonne connaissance (Xiti, Google analytics; Webmaster tools, sitemap)
+Gestion de projet : autonome; peut gérer les tâches avec des clients; suivre les consignes du chef d'équipe et demandes du service commercial et de la direction.

@@ -1,0 +1,5 @@
+Link to change DNS
+https://dns.godaddy.com/ZoneFile.aspx?zone=justyourfood.com&zoneType=0&sa=%2526isc%253dgtnifr15&marketid=en-US&regionsite=www
+
+Old DNS
+184.168.221.19

@@ -1,0 +1,8 @@
+User-Agent: *
+# Disallow: /nutrition/css/
+
+Sitemap: http://justyourfood.com/nutrition/sitemap.xml
+
+Host: justyourfood.com
+
+Crawl-delay: 60 # 60 seconds of minimum interval

@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'BradhITC';
+	src: url('./BradhITC.eot');
+	src: local('BradhITC'), url('./BradhITC.woff') format('woff'), url('./BradhITC.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_4368">Text with this font applied</p> */
+.fontsforweb_fontid_4368 {
+	font-family: 'BradhITC' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

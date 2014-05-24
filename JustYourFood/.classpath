@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="com/justyour/food/server/crawl/providers/cuisinezaz/CuisinezazTest.java|com/justyour/food/server/crawl/providers/AllProvidersTest.java" including="**/*.java" kind="src" output="target/classes" path="testSrc">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="com/justyour/food/client/pages/CreateUser1.java|com/justyour/food/shared/jpa/models/ciqua/CiquaModel_template.java|com/justyour/food/wget/providers/cuisinezaz/shell/|com/justyour/food/server/Constants.java|com/justyour/food/server/crawl/tools/BasicCrawler.java|com/justyour/food/shared/jpa/models/ciqual/CiqualModel_template.java|com/justyour/food/shared/jpa/models/ciqual/CopyOfCiqualModel.java|com/justyour/food/wget/providers/cuisinezaz/|com/justyour/food/wget/providers/doctissimo/|com/justyour/food/client/pages/CreateUser.java" including="**/*.java|*.properties|*.xml|META-INF/*" kind="src" path="src"/>
+	<classpathentry kind="src" path="srcBuild"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="con" path="org.eclipse.datatools.connectivity.jdt.DRIVERLIBRARY/Derby Embedded JDBC Driver 10.1">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/mesp1.02.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/gwttheme.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER/GWT"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:unitiesFR xmlns:ns2="com.justyour.food.server.unity">
+	<unityList name="gramme">
+		<WorldList>
+			<word>g</word>
+			<word>g.</word>
+		</WorldList>
+	</unityList>
+	<unityList name="kilogramme">
+		<WorldList>
+			<word>kg</word>
+		</WorldList>
+	</unityList>
+		<unityList name="cuillere">
+		<WorldList>
+			<word>cuillere</word>
+			<word>cuilleres</word>
+			<word>cuillere(s)</word>
+			<word>c.</word>
+		</WorldList>
+	</unityList>
+	<unityList name="centilitre">
+		<WorldList>
+			<word>cl</word>
+			<word>centilitre</word>
+		</WorldList>
+	</unityList>
+	<unityList name="decilitre">
+		<WorldList>
+			<word>dc</word>
+			<word>decilitre</word>
+		</WorldList>
+	</unityList>
+	<unityList name="tranche">
+		<WorldList>
+			<word>tranche</word>
+			<word>tranches</word>
+			<word>tranche(s)</word>
+		</WorldList>
+	</unityList>
+	<unityList name="gousse">
+		<WorldList>
+			<word>gousse</word>
+			<word>gousses</word>
+			<word>gousse(s)</word>
+		</WorldList>
+	</unityList>
+	<unityList name="verre">
+		<WorldList>
+			<word>verre</word>
+			<word>verres</word>
+			<word>verre(s)</word>
+		</WorldList>
+	</unityList>
+	<unityList name="bouteille">
+		<WorldList>
+			<word>bouteille</word>
+			<word>bouteilles</word>
+			<word>bouteille(s)</word>
+		</WorldList>
+	</unityList>
+	<unityList name="pincee">
+		<WorldList>
+			<word>pincee</word>
+			<word>pincees</word>
+			<word>pincee(s)</word>
+		</WorldList>
+	</unityList>
+	<unityList name="boite">
+		<WorldList>
+			<word>boite</word>
+			<word>boites</word>
+			<word>boite(s)</word>
+		</WorldList>
+	</unityList>
+</ns2:unitiesFR>

@@ -1,0 +1,6 @@
+autoBuildModules=false
+compilerJavascriptStyle=OBFUSCATED
+deploymentPath=/gwt
+eclipse.preferences.version=1
+hostedDeployMode=true
+outputLocation=tmp/bin.todel

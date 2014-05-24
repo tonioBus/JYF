@@ -1,0 +1,593 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<title>Livebox</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta http-equiv="Content-language" content="fr">
+		<meta name="author" content="Nicolas VIVIEN">
+		<meta name="Copyright" content="SAGEM COMMUNICATIONS">
+		<link rel="stylesheet" type="text/css" href="/css/fonts.css">
+		<link rel="stylesheet" type="text/css" href="/css/page.css">
+		<link rel="stylesheet" type="text/css" href="/css/menu.css">
+		<link rel="stylesheet" type="text/css" href="/css/header.css">
+		<link rel="stylesheet" type="text/css" href="/css/contener.css">
+		<link rel="stylesheet" type="text/css" href="/css/subcontener.css">
+		<link rel="stylesheet" type="text/css" href="/css/array.css">
+		<link rel="stylesheet" type="text/css" href="/css/hardware.css">
+		<link rel="stylesheet" type="text/css" href="/css/button.css">
+		<link rel="stylesheet" type="text/css" href="/css/lbpopup.css">
+		<link rel="stylesheet" type="text/css" href="/css/progressbar.css">
+		<link rel="stylesheet" type="text/css" href="/css/styles.css">
+		<script type="text/javascript" src="/js/script.js"></script>
+		<script type="text/javascript" src="/js/control.js"></script>
+		<script type="text/javascript" src="/js/progressbar.js"></script>
+		<script type="text/javascript" src="/js/LBPopup.js"></script>
+		<script type="text/javascript" src="/js/dragresize.js"></script>
+		<script type="text/javascript" src="/js/md5.js"></script>
+	</head>
+	<body>
+		<div id="GUI_master">
+		<div class="main">
+<table class="main">
+	<tr>
+		<td class="header">
+			<div id="header">
+				<h4>livebox</h4>
+				<ul id="rubrics">
+					<li id="rubric1" class="left_rub_selected" style="z-index:2;" onmouseOver="setClasseNameS(this,'left_mouseOver');" onmouseOut="setClasseNameS(this,'left_mouseOut');" onclick="GoPage('index.cgi?page=home&sessionid=c94ZZEc3LyICibOn1uygPPMRGhPX9Sc')">Accueil</li>
+					<li id="rubric2" class="right_rub" style="left:120px; z-index:1;" onmouseOver="setClasseNameS(this,'right_mouseOver');" onmouseOut="setClasseNameS(this,'right_mouseOut');" onclick="GoPage('index.cgi?page=hwview&sessionid=c94ZZEc3LyICibOn1uygPPMRGhPX9Sc')">Configuration</li>
+				</ul>
+			</div>
+		</td>
+<td class="header" style="width: 50px"><a href="JavaScript:OpenHelp('home', 'c94ZZEc3LyICibOn1uygPPMRGhPX9Sc')"><img src="/images/button/help.gif" width="31" height="31"></a>
+</td>
+	</tr>
+	<tr>
+		<td colspan="2" class="authempty">
+		</td>
+	</tr>
+</table>
+<script>
+function FormSubmit() {
+  var str;
+  var objpass = document.formu.authpasswd;
+  var objmd5pass = document.formu.authmd5passwd;
+  var objkey = document.formu.authkey;
+  try {
+    str = hex_md5(objpass.value);
+    str = str + objkey.value;
+    objmd5pass.value = hex_md5(str);
+    objpass.value = '';
+  }
+  catch (e) {
+  }
+  document.formu.submit();
+}
+</script>
+<script>
+function keyPressFunction(e) {
+  var keynum;
+  if (window.event)
+    keynum = e.keyCode;
+  else
+    keynum = e.which;
+  if (keynum == 13) {
+    try {
+      FormSubmit();
+      return true;
+    }
+    catch (err) {
+      return false;
+    }
+  }
+}
+function UpdateForm(e) {
+  keyPressFunction(e);
+}
+document.body.setAttribute('onkeypress', 'return keyPressFunction(event);');</script>
+			<form name="formu" method="POST" action="index.cgi">
+			<input type="hidden" name="page" value="home">
+			<input type="hidden" name="authaction" value="login">
+			<input type="hidden" name="sessionid" value="c94ZZEc3LyICibOn1uygPPMRGhPX9Sc">
+			<input type="hidden" name="authkey" value="dPGmgsoE3Tv7oS4">
+			<table class="main">
+				<tr>
+					<td class="main" style="padding-left: 40px">
+<table class="headarray">
+<tr>
+<td class="left"><img src="/images/hardware/corner.gif" width="45" height="17" class="corner"></td><td class="right">Statut</td></tr>
+</table>
+					</td>
+					<td class="main">
+					</td>
+				</tr>
+				<tr>
+					<td class="main">
+						<!-- Begin content page -->
+						<div id="contener" style="margin-top: 0px">
+<table class="contener">
+	<tr>
+		<td class="topleft"></td>
+		<td class="top"><img src="/images/menu/top.gif" height="8"></td>
+		<td class="topright"></td>
+	</tr>
+</table>
+							<table class="contener">
+								<!-- votre handle pointe ici -->
+								<tr>
+									<td class="left"></td>
+									<td class="content">
+<table class="home">
+	<tr>
+		<td class="icone"><img src="/images/home/general.gif" width="28" height="28"></td>
+		<td class="titlerubric" colspan="2">1.Général</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="homeinfo">
+				<tr>
+					<td class="id">1.1</td>
+					<td class="libelle">Nom de routeur :</td>
+					<td class="value">Livebox-48f8</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="homeinfo">
+				<tr>
+					<td class="id">1.2</td>
+					<td class="libelle">Version logicielle :</td>
+					<td class="value">FAST3XXX_6814BC</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="homeinfo">
+				<tr>
+					<td class="id">1.3</td>
+					<td class="libelle">Adresse IP WAN :</td>
+					<td class="value">86.205.65.18</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="homeinfo">
+				<tr>
+					<td class="id">1.4</td>
+					<td class="libelle">Numéro de téléphone VoIP :</td>
+					<td class="value">+33492928728</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="homeinfo">
+				<tr>
+					<td class="id">1.5</td>
+					<td class="libelle">Durée depuis laquelle le système fonctionne :</td>
+					<td class="value">04:47:59</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="homeinfo">
+				<tr>
+					<td class="id">1.6</td>
+					<td class="libelle">Port Ethernet rouge :</td>
+					<td class="value">Internet, TV</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="homeinfo">
+				<tr>
+					<td class="id">1.7</td>
+					<td class="libelle">Port Ethernet jaune :</td>
+					<td class="value">Internet, TV</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="homeinfo">
+				<tr>
+					<td class="id">1.8</td>
+					<td class="libelle">Port Ethernet vert :</td>
+					<td class="value">Internet, TV</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="homeinfo">
+				<tr>
+					<td class="id">1.9</td>
+					<td class="libelle">Port Ethernet blanc :</td>
+					<td class="value">Internet, TV</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="homeinfo">
+				<tr>
+					<td class="id">1.10</td>
+					<td class="libelle">Adresse MAC de la Livebox :</td>
+					<td class="value">00:26:91:8b:48:f8</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<table class="separator">
+	<tr>
+		<td class="separator"></td>
+	</tr>
+</table>
+<table class="home">
+	<tr>
+		<td class="icone"><img src="/images/home/wifi.gif" width="30" height="20"></td>
+		<td class="titlerubric" colspan="2">2.Sans fil</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="homeinfo">
+				<tr>
+					<td class="id">2.1</td>
+					<td class="libelle">Nom du réseau (SSID) :</td>
+					<td class="value">Livebox-48f8</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="homeinfo">
+				<tr>
+					<td class="id">2.2</td>
+					<td class="libelle">Mode :</td>
+					<td class="value">802.11 b/g/n</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="homeinfo">
+				<tr>
+					<td class="id">2.3</td>
+					<td class="libelle">Numéro de canal :</td>
+					<td class="value">6</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="homeinfo">
+				<tr>
+					<td class="id">2.4</td>
+					<td class="libelle">Mode de sécurité :</td>
+					<td class="value">WPA/WPA2 Auto tkip_aes</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="homeinfo">
+				<tr>
+					<td class="id">2.5</td>
+					<td class="libelle">Débit :</td>
+					<td class="value">130 Mbit/s</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<table class="separator">
+	<tr>
+		<td class="separator"></td>
+	</tr>
+</table>
+<table class="home">
+	<tr>
+		<td class="icone"><img src="/images/home/services.gif" width="35" height="30"></td>
+		<td class="titlerubric" colspan="2">3.Services</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="homeinfo">
+				<tr>
+					<td class="id">3.1</td>
+					<td class="libelle">Connexion Internet :</td>
+					<td class="statusenable">Activé</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="homeinfo">
+				<tr>
+					<td class="id">3.2</td>
+					<td class="libelle">WiFi :</td>
+					<td class="statusenable">Activé</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="homeinfo">
+				<tr>
+					<td class="id">3.3</td>
+					<td class="libelle">Téléphone :</td>
+					<td class="statusenable">Activé</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="homeinfo">
+				<tr>
+					<td class="id">3.4</td>
+					<td class="libelle">TV :</td>
+					<td class="statusenable">Activé</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="homeinfo">
+				<tr>
+					<td class="id">3.5</td>
+					<td class="libelle">Livezoom :</td>
+					<td class="statusdisable">Désactivé</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="homeinfo">
+				<tr>
+					<td class="id">3.6</td>
+					<td class="libelle">DynDNS :</td>
+					<td class="statusenable">Activé</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="homeinfo">
+				<tr>
+					<td class="id">3.7</td>
+					<td class="libelle">serveur DHCP :</td>
+					<td class="statusenable">Activé</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<table class="separator">
+	<tr>
+		<td class="separator"></td>
+	</tr>
+</table>
+<table class="home">
+	<tr>
+		<td class="icone"><img src="/images/home/devices.gif" width="30" height="22"></td>
+		<td class="titlerubric" colspan="2">4.Équipements connectés</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="deviceinfo">
+				<tr>
+<td class="libelle">NAS-MOUGINS (xx:xx:xx:xx:6e:23)</td>
+					<td class="address">DHCP:192.168.1.12</td>
+					<td class="type"><img src="/images/home/typeethernet.gif" width="26" height="17"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="deviceinfo">
+				<tr>
+<td class="libelle">new-host (xx:xx:xx:xx:62:1b)</td>
+					<td class="address">DHCP:192.168.1.10</td>
+					<td class="type"><img src="/images/home/typeethernet.gif" width="26" height="17"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="deviceinfo">
+				<tr>
+<td class="libelle">iPad-de-marucci (xx:xx:xx:xx:04:48)</td>
+					<td class="address">DHCP:192.168.1.14</td>
+					<td class="type"><img src="/images/home/typeethernet.gif" width="26" height="17"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="deviceinfo">
+				<tr>
+<td class="libelle">Tonio-Android (xx:xx:xx:xx:15:95)</td>
+					<td class="address">DHCP:192.168.1.20</td>
+					<td class="type"><img src="/images/home/typewifi.gif" width="26" height="17"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="space">&nbsp;</td>
+		<td class="homeinfo" onmouseout="JavaScript:this.style.backgroundColor='#FFFFFF';" onmouseover="JavaScript:this.style.backgroundColor='#EBEBEB';">
+			<table class="deviceinfo">
+				<tr>
+<td class="libelle">tonioBus-linux (xx:xx:xx:xx:9f:98)</td>
+					<td class="address">DHCP:192.168.1.4</td>
+					<td class="type"><img src="/images/home/typeethernet.gif" width="26" height="17"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+									</td>
+									<td class="right"></td>
+								</tr>
+								<!-- votre handle arrête de pointer ici -->
+							</table>
+							<table class="contener">
+								<tr>
+									<td class="bottomleft"></td>
+									<td class="bottom"><img src="/images/menu/vide.gif" width="1" height="1"></td>
+									<td class="bottomright"></td>
+								</tr>
+							</table>
+						</div>
+						<!-- End content page -->
+					</td>
+					<td class="main">
+<!-- Begin sidebar -->
+<div id="menu" style="margin-top: 0px">
+	<table>
+		<tr>
+			<td class="topleft"></td>
+			<td class="top"></td>
+			<td class="topright"></td>
+		</tr>
+		<tr>
+			<td class="left"></td>
+			<td>
+				<div class="info_accueil">
+					<input type="hidden" name="authmd5passwd" value="">
+					<table class="info_accueil">
+						<tr>
+							<td class="info_pref"><img src="/images/hardware/preferencesbutton.gif"> Authentification</td>
+						</tr>
+						<tr>
+							<td class="info_label">Identifiant:</td>
+						</tr>
+						<tr>
+							<td class="info_field"><input type="text" name="authlogin" value="admin" class="login" title="Le compte par défaut est admin" onkeypress="UpdateForm(event)"></td>
+						</tr>
+						<tr>
+							<td class="info_label">Mot de passe:</td>
+						</tr>
+						<tr>
+							<td class="info_field"><input type="password" name="authpasswd" value="" class="password" title="Saisissez votre mot de passe ici" onkeypress="UpdateForm(event)"></td>
+						</tr>
+					</table>
+				</div>
+			</td>
+			<td class="right"></td>
+		</tr>
+		<tr>
+			<td class="sepleftbig"></td>
+			<td class="sepactbig">
+				Cliquer ici pour valider <a href="JavaScript:FormSubmit()" title="Accéder"><img src="/images/hardware/nextbutton.gif"></a></td>
+			<td class="right"></td>
+		</tr>
+		<tr>
+			<td class="bottomleft"></td>
+			<td class="bottom"><img src="/images/menu/vide.gif" width="1" height="1"></td>
+			<td class="bottomright"></td>
+		</tr>
+	</table>
+</div>
+<!-- End sidebar -->
+<script>document.formu.authlogin.focus();</script>
+					</td>
+				</tr>
+			</table>
+			</form>
+            <table>
+            <tr>
+                <td height=25></td>
+            </tr>
+                <tr>
+                    <td><div style='width: 770px; height: 1px; background-color: rgb(202, 202, 202); font-size: 0pt;'></div></td>                </tr>
+                <tr>
+                    <td>
+                        <a href="javascript:GoPage('index.cgi?page=legal_info_home&sessionid=c94ZZEc3LyICibOn1uygPPMRGhPX9Sc');" style='font-family: Verdana; font-size: 12px; color: rgb(0, 0, 0); position: absolute; left: 660px;'>Informations légales</a>                    </td>
+                </tr>
+            </table>
+		</div>
+		</div>
+	</body>
+</html>

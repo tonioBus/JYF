@@ -1,0 +1,138 @@
+<style type="text/css">
+body {
+	font-family: Arial;
+	font-size: 12px
+}
+
+.recette {
+	counter-reset: paragraph
+}
+
+.recette-table {
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: bold;
+	border-collapse: separate;
+	border-spacing: 2px;
+	border-color: gray;
+	color: #333;
+	margin-bottom: 10px
+}
+
+.recette-table tr td {
+	border-bottom: 1px dotted #b9b9b9;
+	color: #434141;
+	padding: 5px
+}
+
+.instruction p {
+	text-align: justify
+}
+
+.instruction p:before {
+	color: #49a445;
+	content: counter(paragraph) ") ";
+	counter-increment: paragraph
+}
+</style>
+<div class="recette">
+
+	<div class="instruction" >
+		<h2 style="color: #49a445">Les calories: comment cela se mesure-t-il ?</h2>
+		<p>
+			Le monde de la nutrition est pollué par ce terme: <strong>calories</strong>.
+			On devine ce que cela peut être, on a des références, des ordres de
+			grandeurs permettant des comparaisons, mais quelle est la
+			signification réelle de cette mesure et comment l'obtient-on ?
+			Certain on peut être rêvé d'une sonde que l'on insère dans l'aliment
+			à analyser, en quelque minutes, nous obtenons le nombre de calories
+			pour 100 grammes et - autant profiter de l'intrusion de cette sonde -
+			les taux des sels mineraux, protéines, brefs toutes les valeurs
+			nutritionnelles de l'aliment. Mais avant d'anticiper sur l'invention
+			future de cette <em>sonde nutritionnelle</em>, nous allons nous
+			pencher sur la mesure des calories et l'appareil permettant
+			d'effectuer la mesure: <strong>la bombe calorimétrique</strong>.
+		</p>
+		<h3 style="color: #49a445">Bombe calorimètrique</h3>
+		<p>
+			Tout d'abord, qu'est ce une <em>calorie</em> ? Voici ça première
+			définition historique: « la <em>calorie</em> est la quantité de
+			chaleur nécessaire pour élever d'un degré centigrade la température
+			d'un kilogramme d'eau ». La définition de la <em>calorie</em> est
+			donc fondée sur la capacité calorifique de l'eau. Toutefois, la
+			mesure de la <em>calorie</em> est difficile. Sa valeur dépend de la
+			température, de la pression atmosphérique à laquelle la mesure est
+			effectuée, des conditions expérimentales, etc. <br /> Justement; une
+			bombe calorimétrique est un calorimètre spécifique; un appareil
+			destiné à mesurer la chaleur dégagé par une substance lors d'une
+			réaction chimique ou physique à volume constant. Plus spécifiquement;
+			elle mesure le changement de température de l'eau lors de la
+			combustion complète, rapide et unique d'une substance à volume
+			constant.
+		</p>
+		<p>
+			Ce système est conçu comme ceci:<br />le dispositif central est un
+			cylindre en acier, bon conducteur de la chaleur et très résistant à
+			la pression qui peut atteindre instantanément après la réaction,
+			plusieurs centaines de bar. On dispose au fond de ce cylindre un
+			creuset dans lequel sera déposée la substance à étudier. Le cylindre
+			est alors rempli de comburant (dioxygène à une pression de 20 à 30
+			bar pour être sûr qu'il sera en excès afin d'assurer une combustion
+			complète). Le dispositif de mise à feu est constitué d'un fil
+			métallique au contact de la substance, qui sera traversé par un
+			courant de forte intensité pour déclencher la combustion. La bombe
+			est placée dans un calorimètre comprenant une grande quantité d'eau
+			distillée, muni d'un dispositif d'agitation et d'un thermomètre de
+			précision. La quantité d'eau est importante pour que l'élévation de
+			température ne dépasse pas quelques degrés. Après avoir mesuré la
+			température initiale, on déclenche la mise à feu puis on mesure la
+			température de la fin de la combustion lorsque l'équilibre thermique
+			du calorimètre est atteint (moment où la courbe de température
+			redescend). Connaissant la capacité thermique du calorimètre, il est
+			alors facile de déterminer la quantité de chaleur produite par la
+			combustion en la corrigeant de la chaleur apportée par le système de
+			mise à feu.
+		</p>
+
+		<p>L'oxydation des nutriments se déroule dans le corps humain
+			selon le même principe pour obtenir l'énergie nécessaire à la vie.
+			Cependant le processus est moins rapide et moins intense, en effet
+			les cellules ne pourraient pas résister à une augmentation brutale de
+			température. Par ailleurs les cellules n'ont aucun intérêt à dissiper
+			l'énergie potentielle chimique des nutriments sous forme de chaleur :
+			celle-ci (l'énergie potentielle en question) est en fait stockée sous
+			une forme utilisable par la cellule, généralement l'ATP. On peut
+			établir les équivalents énergétiques des différents aliments. Dans
+			l'organisme, l'oxydation des protéines n'est pas aussi complète et
+			elle aboutit à la formation d'urée, il faut alors soustraire la
+			valeur énergétique de l'urée produite.</p>
+	</div>
+	<div>
+		<h3 style="color: #49a445">Pour information, quelque valeurs :</h3>
+
+		<table class="recette-table">
+			<tbody>
+				<tr>
+					<td>lipide</td>
+					<td>9 kcal/g</td>
+				</tr>
+				<tr>
+					<td>glucide</td>
+					<td>4 kcal/g</td>
+				</tr>
+				<tr>
+					<td>protéine</td>
+					<td>4 kcal/g</td>
+				</tr>
+				<tr>
+					<td>cola</td>
+					<td>0.42 kcal/g</td>
+				</tr>
+				<tr>
+					<td>alcohol</td>
+					<td>7 kcal/g</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>

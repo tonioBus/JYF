@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+	version="2.1">
+
+	<persistence-unit name="JustYourFood" transaction-type="RESOURCE_LOCAL">
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		<class>com.justyour.food.shared.jpa.models.ReceipeModel</class>
+		<class>com.justyour.food.shared.jpa.models.Ingredient</class>
+		<class>com.justyour.food.shared.jpa.models.Quantity</class>
+		<class>com.justyour.food.shared.jpa.models.IngredientQuantity</class>
+		<class>com.justyour.food.shared.jpa.models.Numeral</class>
+		<class>com.justyour.food.shared.jpa.models.ciqual.CiqualModel</class>
+		<class>com.justyour.food.shared.jpa.models.UserID</class>
+		<class>com.justyour.food.shared.nutrition.Regime</class>
+		<exclude-unlisted-classes>true</exclude-unlisted-classes>
+
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:derby:C:\justyour.com\PROBLEM" />
+			<!-- EclipseLink should create the database schema automatically -->
+			<property name="eclipselink.ddl-generation" value="create-tables" />
+			<property name="eclipselink.ddl-generation.output-mode"
+				value="both" />
+			<property name="eclipselink.logging.logger" value="JavaLogger"></property>
+			<!-- Optimization #9 - statement caching -->
+			<property name="eclipselink.jdbc.cache-statements" value="true" />
+			<!-- Optimization #10 - batch writing -->
+			<property name="eclipselink.jdbc.batch-writing.size" value="1000" />
+			<!-- Optimization #12 - turn logging off -->
+			<property name="eclipselink.logging.level" value="INFO"></property>
+			<property name="javax.persistence.jdbc.user" value="JustYourFood"/>
+			<property name="javax.persistence.jdbc.password" value="JYF-4945"/>
+			<!-- property name="eclipselink.logging.level" value="off" / -->
+			<property name="eclipselink.logging.level" value="FINE" />
+			<!-- Optimization #13 - close EntityManager on commit, to avoid cost of 
+				resume -->
+			<property name="eclipselink.persistence-context.close-on-commit" value="true" 
+				/>
+			<!-- Optimization #14 - avoid auto flush cost on query execution -->
+			<property name="eclipselink.persistence-context.flush-mode" value="commit" 
+				/>
+			<!-- Optimization #15 - avoid cost of persist on commit -->
+			<property name="eclipselink.persistence-context.persist-on-commit" 
+				value="false" />
+			<property name="eclipselink.application-location" value="/justyour.com/"/>
+		</properties>
+	</persistence-unit>
+</persistence>

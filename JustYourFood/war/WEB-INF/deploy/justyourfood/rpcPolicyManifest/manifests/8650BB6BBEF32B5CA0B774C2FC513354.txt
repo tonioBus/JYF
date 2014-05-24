@@ -1,0 +1,2 @@
+serviceClass: com.justyour.food.client.JYFService
+path: 242896C1DFFDB318B5F79CDE7C25CA10.gwt.rpc

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:parameters Site_Host="http://justyourfood.com/"
+	server-ipaddress="192.168.1.5" wget2Win="c:\cygwin\bin\wget"
+	wget2Linux="wget" wgetOptions="-r -np -N" tmp="tmp"
+	Admins="admin@justyourfood.com bussania@gmail.com sophiecapbern@gmail.com"
+	SMPT_Server="smtp.orange.fr" SMPT_Auth="true" SMPT_Username="albin.bussanni@orange.fr"
+	SMPT_Password="p3yz7ra" routerURL="http://192.168.1.1" routerType="LiveBox-2"
+	routerCheckPeriod="60000" jyf-classpath="providers" DetectDumper="false"
+	xmlns:ns2="com.justyour.food.server">
+	<solr home="/justyourfood/jyf-solr-data/" receipeCore="JYF-Receipes"
+		ciqualCore="Ciqual" />
+	<dumper-declarations
+		className="com.justyour.food.server.crawl.providers.CuisinezAzDumper"
+		urls="http://www.cuisineaz.com/" />
+	<dumper-declarations
+		className="com.justyour.food.server.crawl.providers.DoctissimoDumper"
+		urls="http://recettes.doctissimo.fr" />
+</ns2:parameters>

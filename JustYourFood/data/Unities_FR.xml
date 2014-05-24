@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:unitiesJXBA xmlns:ns2="com.justyour.food.server.unity">
+	<unityList name="gramme">
+		<WorldList>
+			<word>g</word>
+			<word>g.</word>
+		</WorldList>
+	</unityList>
+	<unityList name="kilogramme">
+		<WorldList>
+			<word>kg</word>
+		</WorldList>
+	</unityList>
+	<unityList name="cuillere">
+		<WorldList>
+			<word>cuillere</word>
+			<word>cuilleres</word>
+			<word>cuillere(s)</word>
+			<word>c</word>
+			<word>cuill</word>
+			<word>cuil</word>
+		</WorldList>
+	</unityList>
+	<unityList name="centilitre">
+		<WorldList>
+			<word>cl</word>
+			<word>centilitre</word>
+		</WorldList>
+	</unityList>
+	<unityList name="decilitre">
+		<WorldList>
+			<word>dc</word>
+			<word>dl</word>
+			<word>decilitre</word>
+		</WorldList>
+	</unityList>
+	<unityList name="litre">
+		<WorldList>
+			<word>l</word>
+			<word>litre</word>
+			<word>litres</word>
+			<word>litre(s)</word>
+		</WorldList>
+	</unityList>
+	<unityList name="tranche">
+		<WorldList>
+			<word>tranche</word>
+			<word>tranches</word>
+			<word>tranche(s)</word>
+		</WorldList>
+	</unityList>
+	<unityList name="gousse">
+		<WorldList>
+			<word>gousse</word>
+			<word>gousses</word>
+			<word>gousse(s)</word>
+		</WorldList>
+	</unityList>
+	<unityList name="verre">
+		<WorldList>
+			<word>verre</word>
+			<word>verres</word>
+			<word>verre(s)</word>
+		</WorldList>
+	</unityList>
+	<unityList name="bouteille">
+		<WorldList>
+			<word>bouteille</word>
+			<word>bouteilles</word>
+			<word>bouteille(s)</word>
+		</WorldList>
+	</unityList>
+	<unityList name="pincee">
+		<WorldList>
+			<word>pincee</word>
+			<word>pincees</word>
+			<word>pincee(s)</word>
+		</WorldList>
+	</unityList>
+	<unityList name="sachet">
+		<WorldList>
+			<word>sachet</word>
+			<word>sachets</word>
+		</WorldList>
+	</unityList>
+	<unityList name="boite">
+		<WorldList>
+			<word>boîte</word>
+			<word>boîtes</word>
+			<word>boîte(s)</word>
+		</WorldList>
+	</unityList>
+	<unityList name="soupe">
+		<WorldList>
+			<word>soupe</word>
+			<word>soupes</word>
+			<word>soupe(s)</word>
+		</WorldList>
+	</unityList>
+	<unityList name="cafe">
+		<WorldList>
+			<word>cafe</word>
+			<word>cafes</word>
+			<word>cafe(s)</word>
+		</WorldList>
+	</unityList>
+	<unityList name="the">
+		<WorldList>
+			<word>the</word>
+			<word>thes</word>
+			<word>the(s)</word>
+		</WorldList>
+	</unityList>
+	<unityList name="brin">
+		<WorldList>
+			<word>brin</word>
+			<word>brins</word>
+			<word>brin(s)</word>
+		</WorldList>
+	</unityList>
+	<unityList name="cube">
+		<WorldList>
+			<word>cube</word>
+			<word>cubes</word>
+			<word>cube(s)</word>
+		</WorldList>
+	</unityList>
+	<unityList name="filet">
+		<WorldList>
+			<word>filet</word>
+			<word>filets</word>
+			<word>filet(s)</word>
+		</WorldList>
+	</unityList>
+	<unityList name="copeau">
+		<WorldList>
+			<word>copeau</word>
+			<word>copeaux</word>
+			<word>copeau(x)</word>
+		</WorldList>
+	</unityList>
+	<unityList name="morceau">
+		<WorldList>
+			<word>morceau</word>
+			<word>morceaux</word>
+			<word>morceau(x)</word>
+		</WorldList>
+	</unityList>
+
+</ns2:unitiesJXBA>

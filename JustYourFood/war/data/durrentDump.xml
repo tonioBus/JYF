@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:receipeModel xmlns:ns2="com.justyour.food.shared.jpa.models">
+	<interpretationLevel>1.0</interpretationLevel>
+	<wellFormed>false</wellFormed>
+	<title>Salade de poulet façon thaï</title>
+	<number>0</number>
+	<creationDate>2014-01-02T00:00:00+01:00</creationDate>
+	<domain>http://recettes.doctissimo.fr</domain>
+	<source>http://recettes.doctissimo.fr/salade-de-poulet-facon-thai.htm
+	</source>
+	<link>http://recettes.doctissimo.fr/salade-de-poulet-facon-thai.htm
+	</link>
+	<cookingSecondSentence>15 mn</cookingSecondSentence>
+	<cookingSecond>900.0</cookingSecond>
+	<preparationSecondSentence>10 mn</preparationSecondSentence>
+	<preparationSecond>600.0</preparationSecond>
+	<restSecondSentence>not defined</restSecondSentence>
+	<restSecond>0.0</restSecond>
+	<energie>-1.0</energie>
+	<remark>?remark?</remark>
+	<numberPersonsSentence>2</numberPersonsSentence>
+	<numberPersons>2</numberPersons>
+	<difficultySentence>Facile</difficultySentence>
+	<difficulty>0</difficulty>
+	<instructions>1.Faire revenir les blancs de poulet à la poêle dans deux
+		cuillers à soupe d'huile neutre. Lorsqu'ils sont saisis, parsemer
+		chaque côté de poudre de curry. Terminer la cuisson à feu doux en
+		couvrant et en ajoutant 2 cuillers à soupe d'eau. Laisser reposer et
+		découper en tranches épaisses.
+		2.Pendant ce temps, cuire les vermicelles dans de l'eau bouillante salée, les
+		égoutter.
+		3.Dans un saladier, mélanger les ingrédients de la sauce. Ajouter les
+		vermicelles, le concombre en bâtonnets, l'oignon émincé et les herbes
+		ciselées. Remuer délicatement.
+		4.Disposer ce mélange sur les feuilles de salade, ajouter les tranches de poulet
+		et saupoudrer de cacahuètes hachées.
+	</instructions>
+	<imageURL>http://mf.imdoc.fr/content/3/7/3/493735/salade-de-poulet-facon-thai.jpg
+	</imageURL>
+	<price>1</price>
+	<priceSentence>Economique</priceSentence>
+	<ingredientsRPC>
+		<details>2 blancs de poulet fermier Label rouge</details>
+		<adjectif>fermier rouge</adjectif>
+		<ingredientSz>blancs de poulet label</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>2.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+	</ingredientsRPC>
+	<ingredientsRPC>
+		<details>2 cuillers à café de poudre de curry</details>
+		<adjectif></adjectif>
+		<ingredientSz>cuillers à de poudre de curry</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>2.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+			<unity>cafe</unity>
+		</quantitiesRPC>
+		<quantitiesRPC>
+			<numeral>
+				<number>0.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+	</ingredientsRPC>
+	<ingredientsRPC>
+		<details>100 g de vermicelles ou nouilles asiatiques</details>
+		<adjectif></adjectif>
+		<ingredientSz>vermicelles</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>100.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+			<unity>gramme</unity>
+		</quantitiesRPC>
+		<quantitiesRPC>
+			<numeral>
+				<number>0.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+		<orNext>
+			<details>100 g de vermicelles ou nouilles asiatiques</details>
+			<adjectif>asiatiques</adjectif>
+			<ingredientSz>nouilles</ingredientSz>
+			<quantitiesRPC>
+				<numeral>
+					<number>0.0</number>
+					<type>DOUBLE</type>
+				</numeral>
+			</quantitiesRPC>
+		</orNext>
+	</ingredientsRPC>
+	<ingredientsRPC>
+		<details>1 /3 de concombre</details>
+		<adjectif></adjectif>
+		<ingredientSz>/3 de concombre</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>1.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+	</ingredientsRPC>
+	<ingredientsRPC>
+		<details>1 petit oignon rouge</details>
+		<adjectif>petit rouge</adjectif>
+		<ingredientSz>oignon</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>1.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+	</ingredientsRPC>
+	<ingredientsRPC>
+		<details>2 tiges de menthe</details>
+		<adjectif></adjectif>
+		<ingredientSz>tiges de menthe</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>2.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+	</ingredientsRPC>
+	<ingredientsRPC>
+		<details>10 brins de coriandre</details>
+		<adjectif></adjectif>
+		<ingredientSz>coriandre</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>10.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+			<unity>brin</unity>
+		</quantitiesRPC>
+		<quantitiesRPC>
+			<numeral>
+				<number>0.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+	</ingredientsRPC>
+	<ingredientsRPC>
+		<details>feuilles de salade (romaine, sucrine, iceberg)</details>
+		<adjectif></adjectif>
+		<ingredientSz>feuilles de salade</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>0.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+	</ingredientsRPC>
+	<ingredientsRPC>
+		<details>1 cuiller à soupe de cacahuètes salées</details>
+		<adjectif></adjectif>
+		<ingredientSz>cuiller à de cacahuètes</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>1.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+			<unity>soupe</unity>
+		</quantitiesRPC>
+		<quantitiesRPC>
+			<numeral>
+				<number>0.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+	</ingredientsRPC>
+	<ingredientsRPC>
+		<details>1 cuiller à soupe d'huile (sésame ou tournesol)</details>
+		<adjectif></adjectif>
+		<ingredientSz>cuiller à d' huile</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>1.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+			<unity>soupe</unity>
+		</quantitiesRPC>
+		<quantitiesRPC>
+			<numeral>
+				<number>0.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+	</ingredientsRPC>
+	<ingredientsRPC>
+		<details>1 cuiller à soupe de sauce poisson (nuoc nâm)</details>
+		<adjectif></adjectif>
+		<ingredientSz>cuiller à de sauce poisson</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>1.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+			<unity>soupe</unity>
+		</quantitiesRPC>
+		<quantitiesRPC>
+			<numeral>
+				<number>0.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+	</ingredientsRPC>
+	<ingredientsRPC>
+		<details>2 cuillers à soupe de sauce soja</details>
+		<adjectif></adjectif>
+		<ingredientSz>cuillers à de sauce</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>2.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+			<unity>soupe</unity>
+		</quantitiesRPC>
+		<quantitiesRPC>
+			<numeral>
+				<number>0.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+	</ingredientsRPC>
+	<ingredientsRPC>
+		<details>2 cuillers à café de jus de citron</details>
+		<adjectif></adjectif>
+		<ingredientSz>cuillers à de jus de citron</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>2.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+			<unity>cafe</unity>
+		</quantitiesRPC>
+		<quantitiesRPC>
+			<numeral>
+				<number>0.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+	</ingredientsRPC>
+	<ingredientsRPC>
+		<details>1 cuiller à café de sucre en poudre</details>
+		<adjectif></adjectif>
+		<ingredientSz>cuiller à de sucre en poudre</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>1.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+			<unity>cafe</unity>
+		</quantitiesRPC>
+		<quantitiesRPC>
+			<numeral>
+				<number>0.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+	</ingredientsRPC>
+</ns2:receipeModel>

@@ -1,0 +1,386 @@
+<!doctype html>
+<!--
+(c) 2013 JustYour.com
+Anthony Bussani - bussania@gmail.com
+-->
+<html>
+
+<!--*******************************************-->
+<!--                HEADER                     -->
+<!--*******************************************-->
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="fr-FR" />
+<title>Just Your Food</title>
+<meta name="description"
+	content="Just Your Food est un site ou vous trouverez un moteur de recherche de recettes et d'ingredients ainsi que les valeurs nutritionnelles associées." />
+<meta name="keywords"
+	content="just your food, nutrition, regimes, stress, moteur de recherche, coach, psychologie, calcul nutritionnel" />
+<meta http-equiv="Cache-Control" content="public">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Window-target" content="_top">
+<meta name="robots" content="index, follow">
+<!-- meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+<meta name="Distribution" content="Global" />
+<meta name="Rating" content="General" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="copyright" content="2014 JustYour.com" />
+<meta name="department" content="Nutrition" />
+<meta name="author" content="Anthony Bussani" />
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+<!--                                                               -->
+<!-- Consider inlining CSS to reduce the number of requested files -->
+<!--                                                               -->
+<link type="text/css" rel="stylesheet" href="css/justyourfood.css" />
+<script type="text/javascript"
+	src="justyourfood/justyourfood.nocache.js"></script>
+<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if lte IE 7]>
+		<script src="js/IE8.js" type="text/javascript"></script><![endif]-->
+<!--[if lt IE 7]>
+		<link rel="stylesheet" type="text/css" media="all" href="css/ie6.css"/><![endif]-->
+
+<!--*******************************************-->
+<!--              SCRYPT                       -->
+<!--*******************************************-->
+
+<script>
+	(function(i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function() {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date();
+		a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a, m)
+	})(window, document, 'script', '//www.google-analytics.com/analytics.js',
+			'ga');
+
+	ga('create', 'UA-45673085-1', 'justyourfood.com');
+	ga('send', 'pageview');
+
+	(function() {
+		var cx = '010915048545830186262:kxenhmofa1w';
+		var gcse = document.createElement('script');
+		gcse.type = 'text/javascript';
+		gcse.async = true;
+		gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:')
+				+ '//www.google.com/cse/cse.js?cx=' + cx;
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(gcse, s);
+	})();
+</script>
+</head>
+<!--*******************************************-->
+<!--                BODY                       -->
+<!--*******************************************-->
+<body>
+	<div id="fb-root"></div>
+	<script>
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id))
+				return;
+			js = d.createElement(s);
+			js.id = id;
+			js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1&appId=599607886781023";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+	<iframe src="javascript:''" id="__gwt_historyFrame" tabindex='-1'
+		style="position: absolute; width: 0; height: 0; border: 0"></iframe>
+	<noscript>
+		<div
+			style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+			Votre navigateur internet doit permettre l'exécution de JavaScript
+			pour permettre un affichage correct de cette page.</div>
+	</noscript>
+	<header>
+		<hr class="hr1" />
+		<div class="banner-bg"
+			style="display: table; clear: both; width: 100%; horizontal-align: center; text-align: center; max-height: 100px;">
+			<!-- JYF -->
+			<a style="float: left; margin-left: 20px; margin-top: 15px;"
+				href="http://justyourfood.com"> <img class="jyf-border"
+				style="height: 60px; width: 60px; margin-top: 0px;"
+				src="images/jyf.jpg" alt="Just-Your-Food" title="Just Your Food" />
+			</a>
+			<h1
+				style="display: text; font-family: 'BradhITC'; margin-left: auto; margin-right: auto; text-margin-top: 5px; float: left; font-weight: bold; font-size: 1.1em; text-align: center; color: Gray;">
+				Just Your Food<br /> est un ensemble de<br /> moteurs de recherche
+				de <br /> recettes et d'ingredients ainsi<br /> que les
+				informations nutritionnelles associées.<br />
+			</h1>
+			<img src="images/background-banner.jpg" alt="Just-Your-Food"
+				title="Just Your Food"
+				style="float: right; margin-right: 10px; margin-top: 10px; height: 100px; width: 150px; display: text;" />
+			<div
+				style="display: text; vertical-align: center; max-width: 20em; max-height: 1.0em; display: text; float: right; margin-top: 0px; maring-right: 5em;">
+				<gcse:search style="height: 1em;" enableHistory="true"
+					autoCompleteMaxCompletions="5" autoCompleteMatchType='any'
+					enableAutoComplete="true"></gcse:search>
+			</div>
+		</div>
+		<div style="display: block;">
+			<hr style="display: text;" class="hr2" />
+			<div
+				style="border: 0; float: left; display: block; margin-top: 0; margin-left: 15px;">
+				<div class="fb-like" style="float: left; width: 200px;"
+					data-href="http://justyourfood.com" data-layout="button_count"
+					data-action="like" data-show-faces="true" data-share="true"></div>
+				<nav class="top-nav"
+					style="vertical-align: middle; padding: 0; margin: 0 auto; text-align: center;">
+					<ul class="top-nav" style="display: inline; padding: 0; maring: 0;">
+						<li class="top-nav"
+							style="padding: 0; margin-left: 0; margin-right: 0;"><a
+							class="top-nav"
+							style="font-family: Georgia, serif; font-size: 1.6em;"
+							title="Moteur de recherche de recettes" href="#!RequestReceipes;">Recettes</a></li>
+						<li class="top-nav"
+							style="padding: 0; margin-left: 0; margin-right: 0;"><a
+							class="top-nav"
+							style="font-family: Georgia, serif; font-size: 1.6em; margin-left: 0; margin-right: 0;"
+							title="Moteur de recherche d'ingredients" href="#!RequestCiqual;">Ingredients</a></li>
+						<li class="top-nav"
+							style="padding: 0; margin-left: 0; margin-right: 0;"><a
+							class="top-nav"
+							style="font-family: Georgia, serif; font-size: 1.6em; margin-left: 0; margin-right: 0;"
+							title="Retour à l'accueil de Just Your Food" href="#!Login;">Accueil</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div id="social-head"
+				style="display: inline; float: right; margin-top: 0; margin-right: 15px;">
+				<!-- SOCIALS LINKS -->
+				<a target="_blank" title="suivez nous sur Facebook"
+					href="https://www.facebook.com/pages/Just-Your-Food/487252138058328"
+					style="display: block; float: left;"> <img
+					alt="suivez nous sur facebook" class="jyf-img"
+					style="float: left; width: 30px; height: 30px; margin-left: 15px;"
+					src="//login.create.net/images/icons/user/facebook_30x30.png"
+					border=0 />
+				</a> <a href="https://twitter.com/JustYourFood"
+					title="suivez nous sur Twitter"
+					style="display: block; float: left;" target=_blank> <img
+					class="jyf-img"
+					style="float: left; width: 30px; height: 30px; margin-left: 5px;"
+					src="images/twitter.png" alt="suivez nous sur twitter" />
+				</a>
+			</div>
+			<hr style="display: text;" class="hr2" />
+		</div>
+	</header>
+
+	<!--*******************************************-->
+	<!--                SECTION                    -->
+	<!--*******************************************-->
+	<section id="section">
+
+		<!--*******************************************-->
+		<!--               CENTER                      -->
+		<!--*******************************************-->
+		<div id="div_center" class="column"
+			style="height: 800px; letter-spacing: 1px; margin: 0 auto; text-align: center;">
+			<script src="http://localhost:8080/html/js/liferay/widget.js"
+				type="text/javascript"></script>
+			<script type="text/javascript">
+				Liferay
+						.Widget({
+							url : 'http://localhost:8080/widget/web/justyourfood/accueil/-/blogs'
+						});
+			</script>
+			<div id="body" style="margin: 0 auto; text-align: center;">
+				<div
+					style="display: block; vertical-align: center; text-align: center;">
+					<img alt="Progression du chargement de Just-Your-Food"
+						src="images/pleasewait.gif" /><br />
+					<h2 style="color: Red">
+						Just Your Food: Chargement ...<br />
+					</h2>
+				</div>
+				<div
+					style="margin: 0 auto; text-align: center; color: #989898; border-color: white; background-color: white; display: block; text-align: left;">
+					<hr class="hr3" />
+					<h3>Samedi 08 février</h3>
+					Nouvelle fonctionnalité; il est désormait possible de consulter les
+					valeurs nutritionnelles exhaustives de - pour l'instant - plus de
+					1400 ingrédients <a href="#!RequestCiqual;"
+						title="Moteur de recherche: Nutrition par Ingrédients">Nutrition
+						par Ingrédients</a>
+					<hr class="hr3" />
+					<h3>Dimanche 02 février</h3>
+					Des crêpes pour la chandeleur <a href="#!News;Fevrier-2014;2;"
+						title="Recettes de Crêpes">ici</a>
+					<hr class="hr3" />
+					<h3>Jeudi 23 janvier</h3>
+					<h4>Nouveauté:</h4>
+					Il est dorénavant possible de cliquer sur un des fruits ou légumes
+					du mois de janvier pour obtenir des recettes confectionnées avec
+					ceux-ci grâce à notre moteur de recherche <a
+						href="#!Text;Fruits%20Legumes%20Janvier;"> ici</a><br />.
+					<hr class="hr3" />
+					<h3>Mardi 21 janvier</h3>
+					<a style="float: left;" href="#!News;Janvier-2014;21-zen;">Manger
+						ou stresser; il faut choisir<br /> (ou comment et pourquoi je
+						mange)
+					</a> <a style="float: left;" href="#!News;Janvier-2014;21-zen;"><img
+						class="jyf-img"
+						style="display: text; width: 200px; margin-left: 50px; float: left;"
+						src="textFiles/Janvier-2014/21-bebe.jpg" alt="Image d'un bebe" /></a>
+					<hr class="hr3" />
+					<h3>Jeudi 9 janvier</h3>
+					<a href="#!News;Janvier-2014;8;">Les fruits et légumes du mois
+						de Janvier</a>
+					<hr class="hr3" />
+					<h3>Mercredi 8 janvier</h3>
+					<img class="jyf-img"
+						style="box-shadow: 0; margin: 0px; width: 200px; float: right; margin-bottom: -50px;"
+						src="images-receipes/galettes-rois.jpg" alt="Galettes des Rois" />
+					Cette semaine juste pour vous, en l'honneur de la galette, trois
+					recettes: <a href="#!News;Janvier-2014;7.GalettePourTous;"
+						class="jyf-hyperLink" title="Recette Galette classique">classique</a>,
+					de Monsieur <a href="#!News;Janvier-2014;7.GaletteHyperProteinee;"
+						class="jyf-hyperLink" title="Recette Galette Dukan">Dukan</a>, et
+					<a href="#!News;Janvier-2014;7.GaletteRisSansGluten;"
+						class="jyf-hyperLink" title="Recette Galette Sans Gluten">sans
+						gluten</a> ! <br /> Bon appétit !<br />
+				</div>
+			</div>
+		</div>
+
+		<!--*******************************************-->
+		<!--               LEFT                        -->
+		<!--*******************************************-->
+		<aside id="div_left" class="column">
+			<span
+				style="display: block; color: white; font-weight: none; font-size: 1.2em; margin: auto; margin-bottom: 0px; width: 100%; padding: 0; text-align: center;">
+				Nutritions </span>
+			<hr class="hr4" />
+			<nav style="display: block; font-weight: none; font-size: 1.0em;">
+				<ul>
+					<li>Les régimes alimentaires
+						<ul>
+							<li><a href="#!Text;Alimentation equilibree;"
+								title="Alimentation équilibrée">Alimentation équilibrée</a></li>
+							<li><a href="#!Text;Principales allergies alimentaires;"
+								title="Informations sur les allergies alimentaires">Principales
+									allergies alimentaires</a></li>
+							<li><a href="#!Text;Regime vegetarien;"
+								title="Les régimes alimentaires végétariens">Régimes
+									végétariens</a></li>
+						</ul>
+					</li>
+					<li>Guide des Aliments
+						<ul>
+							<!--li><a href="#!Text;viandes;">viandes</a></li>
+							<li><a href="#!Text;legumes">légumes</a></li>
+							<li><a href="#!Text;fruits">fruits</a></li-->
+							<li>Guide des substances organiques
+								<ul>
+									<li><a href="#!Text;Vitamines;">Liste des Vitamines</a></li>
+									<li><a href="#!Text;Glucides;">Glucides</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>Fruits et Légumes de saisons
+						<ul>
+							<li><a href="#!Text;Fruits Legumes Decembre;"
+								title="Fruit et Légumes en Décembre">Décembre</a></li>
+							<li><a href="#!Text;Fruits Legumes Janvier;"
+								title="Fruit et Légumes en Janvier">Janvier</a></li>
+							<li><a href="#!Text;Fruits Legumes Fevrier;"
+								title="Fruit et Légumes en Fevrier">Fevrier</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<div id="div_right_intervenants"
+				style="margin-top: 2em; text-align: center;">
+				<hr class="hr3" />
+				<span class="jyf-label"
+					style="display: block; color: white; font-weight: none; font-size: 1.2em; margin: auto; margin-bottom: 0px; width: 100%; padding: 0; text-align: center;">
+					Sources</span>
+				<hr class="hr3" />
+				<a href="http://www.ansespro.fr/TableCIQUAL/"
+					style="font-size: 1.0em; text-align: center;"
+					title="Table de composition nutritionnelle Ciqual 2012">Ciqual
+					2012</a>
+			</div>
+		</aside>
+
+		<!--*******************************************-->
+		<!--               RIGHT                       -->
+		<!--*******************************************-->
+		<aside id="div_right" class="column">
+			<div id="div_right_articles"
+				style="font-weight: none; font-size: 1em;">
+				<span
+					style="display: block; font-weight: none; font-size: 1.2em; margin: auto; margin-bottom: 0px; width: 100%; padding: 0; text-align: center;">
+					Articles</span>
+				<hr class="hr3" />
+				<a
+					title="Comparaison gourmande et nutritionnelle de 3 recettes d'Hamburgers"
+					class="article-hyperlink"
+					href="index.html#!News;Fevrier-2014;Comparaison-Hamburgers-Nutrition;">Matchs
+					Hamburger:<br />Sans Gluten<br />Ordinaire<br />Hyperprotéiné<br />
+				</a>
+				<hr class="hr5" />
+				<a title="Fruits et légumes du mois de février"
+					class="article-hyperlink" href="#!Text;Fruits Legumes Fevrier;">Fruits
+					et légumes de février</a>
+				<hr class="hr5" />
+				<a title="Comment et pourquoi je mange" class="article-hyperlink"
+					href="#!News;Janvier-2014;21-zen;">Comment et pourquoi je mange</a>
+				<hr class="hr5" />
+				<a title="Fruits et légumes du mois de janvier"
+					class="article-hyperlink" href="#!News;Janvier-2014;8;">Fruits
+					et légumes de janvier</a>
+				<hr class="hr5" />
+				<a title="Détails sur l'histoire de la galette des rois"
+					class="article-hyperlink" href="#!News;Janvier-2014;7.1;">Histoire
+					de la galette des rois</a>
+				<hr class="hr5" />
+				<div id="div_right_intervenants" style="margin-top: 2em;">
+					<span
+						style="display: block; color: white; font-weight: none; font-size: 1.2em; margin: auto; margin-bottom: 0px; width: 100%; padding: 0; text-align: center;">
+						Partenaires</span>
+					<hr class="hr3" />
+					<a target="_blank"
+						style="text-align: center; margin-top: 0em; width: 100%; height: auto; display: block;"
+						href="http://www.cookagnes.com/"> <img class="jyf-img"
+						style="max-width: 80%; margin-top: 0px;"
+						src="images/CookAgnes.jpg" alt="Cook Agnes" /></a> <a target="_blank"
+						style="text-align: center; top: 2em; width: auto; height: auto; display: block;"
+						href="http://www.mieux-etre-autrement.com/"> <img
+						class="jyf-img" style="max-width: 80%; margin-top: 5px;"
+						src="images/mieux-etre-autrement.gif" alt="Mieux être autrement">
+					</a>
+				</div>
+			</div>
+		</aside>
+	</section>
+
+	<!--*******************************************-->
+	<!--                FOOTER                     -->
+	<!--*******************************************-->
+
+	<footer id="contentinfo" class="banner-bg" style="clear: both;">
+		<div class="banner-bg"
+			style="clear: both; width: 100%; horizontal-align: center; text-align: center; height: 3em;"></div>
+		<hr class="hr2" />
+		<div id="footer">
+			<a style="margin-left: 20px;" href="#!Login;"> &copy; 2013-2014 -
+				Just Your Food </a> <a style="margin-right: 40px; float: right;"
+				href="mailto:admin@justyourfood.com?cc=bussania@gmail.com?Subject=Contact"
+				target="_top">nous contacter</a>
+		</div>
+		<hr class="hr1" />
+	</footer>
+</body>
+</html>

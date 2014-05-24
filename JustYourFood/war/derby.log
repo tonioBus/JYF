@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu May 22 16:41:53 CEST 2014:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-0146-2461-9255-000004e4f888 
+on database directory /media/data/justyour.com/JustYourFoodDb with class loader WebAppClassLoader=1018101143@3caefd97 
+Loaded from file:/media/data/Dev/git/MetaReceipe/JustYourFood/war/WEB-INF/lib/derby-10.10.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_55-b13
+user.dir=/media/data/Dev/git/MetaReceipe/JustYourFood/war
+os.name=Linux
+os.arch=amd64
+os.version=3.14.0-031400rc1-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

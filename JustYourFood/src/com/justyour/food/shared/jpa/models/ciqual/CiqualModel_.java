@@ -1,0 +1,71 @@
+package com.justyour.food.shared.jpa.models.ciqual;
+
+import javax.annotation.Generated;
+import javax.persistence.metamodel.SingularAttribute;
+import javax.persistence.metamodel.StaticMetamodel;
+
+@Generated(value="Dali", date="2013-12-13T10:29:11.377+0100")
+@StaticMetamodel(CiqualModel.class)
+public class CiqualModel_ {
+	public static volatile SingularAttribute<CiqualModel, String> mORIGGPCD;
+	public static volatile SingularAttribute<CiqualModel, String> mORIGGPFR;
+	public static volatile SingularAttribute<CiqualModel, String> mORIGFDCD;
+	public static volatile SingularAttribute<CiqualModel, String> mORIGFDNM;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Sodium_10110;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Magnesium_10120;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Phosphore_10150;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Potassium_10190;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Calcium_10200;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Manganese_10251;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Fer_10260;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Cuivre_10290;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Zinc_10300;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Selenium_10340;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Iode_10530;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Proteines_25000;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Proteines_brutes_N_x_6_25_25003;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Glucides_31000;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Sucres_32000;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Energie_Reglement_UE_1169_2011_327;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Energie_Reglement_UE_1169_2011_328;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Amidon_33110;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Energie_N_x_facteur_Jones_avec_fibres_332;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Energie_N_x_facteur_Jones_avec_fibres_333;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Polyols_totaux_34000;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Fibres_34100;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Eau_400;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Lipides_40000;
+	public static volatile SingularAttribute<CiqualModel, Double> m_AG_satures_40302;
+	public static volatile SingularAttribute<CiqualModel, Double> m_AG_monoinsatures_40303;
+	public static volatile SingularAttribute<CiqualModel, Double> m_AG_polyinsatures_40304;
+	public static volatile SingularAttribute<CiqualModel, Double> m_AG_4_0_butyrique_40400;
+	public static volatile SingularAttribute<CiqualModel, Double> m_AG_6_0_caproique_40600;
+	public static volatile SingularAttribute<CiqualModel, Double> m_AG_8_0_caprylique_40800;
+	public static volatile SingularAttribute<CiqualModel, Double> m_AG_10_0_caprique_41000;
+	public static volatile SingularAttribute<CiqualModel, Double> m_AG_12_0_laurique_41200;
+	public static volatile SingularAttribute<CiqualModel, Double> m_AG_14_0_myristique_41400;
+	public static volatile SingularAttribute<CiqualModel, Double> m_AG_16_0_palmitique_41600;
+	public static volatile SingularAttribute<CiqualModel, Double> m_AG_18_0_stearique_41800;
+	public static volatile SingularAttribute<CiqualModel, Double> m_AG_18_1_9c_oleique_41819;
+	public static volatile SingularAttribute<CiqualModel, Double> m_AG_18_2_9c_12c_linoleique_41826;
+	public static volatile SingularAttribute<CiqualModel, Double> m_AG_18_3_c9_c12_c15_alpha_linolenique_41833;
+	public static volatile SingularAttribute<CiqualModel, Double> m_AG_20_4_5c_8c_11c_14c_arachidonique_42046;
+	public static volatile SingularAttribute<CiqualModel, Double> m_AG_20_5_5c_8c_11c_14c_17c_EPA_42053;
+	public static volatile SingularAttribute<CiqualModel, Double> m_AG_22_6_4c_7c_10c_13c_16c_19c_DHA_42263;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Retinol_51200;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Beta_Carotene_51330;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Vitamine_D_52100;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Vitamine_E_53100;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Vitamine_K_54100;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Vitamine_C_55100;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Vitamine_B1_ou_Thiamine_56100;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Vitamine_B2_ou_Riboflavine_56200;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Vitamine_B3_ou_PP_ou_Niacine_56310;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Vitamine_B5_ou_Acide_pantothenique_56400;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Vitamine_B6_56500;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Vitamine_B12_56600;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Vitamine_B9_ou_Folates_totaux_56700;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Alcool_60000;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Acides_organiques_65000;
+	public static volatile SingularAttribute<CiqualModel, Double> m_Cholesterol_75100;
+}

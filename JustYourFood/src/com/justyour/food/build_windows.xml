@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project name="ImageViewer" default="all" basedir="C:\justyour.com\git\MetaReceipe\JustYourFood">
+	<description>
+		This is build file for GWT module 'com.justyour.food.justyourfood' deployment.
+		GWT Designer generates it each time when you initiate deployment.
+		
+		You can use this file later for manual deployment, but keep in mind, that
+		classpath is hardcoded in it, so after changes in classpath you should
+		regenerate build file.
+	</description>
+
+	<property name="gwt.home" value="D:/eclipse/eclipse-jee-kepler-R-win32-x86_64/eclipse/plugins/com.google.gwt.eclipse.sdkbundle_2.5.1/gwt-2.5.1" />
+	<property name="gwt.module.id" value="com.justyour.food.justyourfood" />
+	<property name="war.name" value="nutrition.war" />
+
+	<target name="jars" description="Package up the module project and required projects as jars">
+		<mkdir dir="war/WEB-INF/lib" />
+		<!--=== JustYourFood ===-->
+		<jar destfile='war/WEB-INF/lib/JustYourFood.jar'>
+			<fileset dir="C:/justyour.com/git/MetaReceipe/JustYourFood/testSrc">
+				<include name="**"/>
+			</fileset>
+			<fileset dir="C:/justyour.com/git/MetaReceipe/JustYourFood/src">
+				<include name="**"/>
+			</fileset>
+			<fileset dir="C:/justyour.com/git/MetaReceipe/JustYourFood/target/classes">
+				<include name="**/*.class"/>
+			</fileset>
+			<fileset dir="C:/justyour.com/git/MetaReceipe/JustYourFood/target/classes">
+				<include name="**/*.class"/>
+			</fileset>
+		</jar>
+		<copy todir='war/WEB-INF/lib'>
+			<fileset file="C:\justyour.com\git\MetaReceipe\JustYourFood\war\WEB-INF\lib\a_httpclient-4.2.3.jar"/>
+			<fileset file="C:\justyour.com\git\MetaReceipe\JustYourFood\war\WEB-INF\lib\commons-exec-1.1.jar"/>
+			<fileset file="C:\justyour.com\git\MetaReceipe\JustYourFood\target\classes"/>
+			<fileset file="C:\justyour.com\git\MetaReceipe\JustYourFood\war\WEB-INF\lib\solr-solrj-4.4.0.jar"/>
+			<fileset file="C:\justyour.com\git\MetaReceipe\JustYourFood\war\WEB-INF\lib\slf4j-log4j12-1.6.6.jar"/>
+			<fileset file="C:\justyour.com\git\MetaReceipe\JustYourFood\war\WEB-INF\lib\slf4j-api-1.6.6.jar"/>
+			<fileset file="C:\justyour.com\git\MetaReceipe\JustYourFood\war\WEB-INF\lib\log4j-1.2.16.jar"/>
+			<fileset file="C:\justyour.com\git\MetaReceipe\JustYourFood\war\WEB-INF\lib\httpcore-4.2.2.jar"/>
+			<fileset file="C:\justyour.com\git\MetaReceipe\JustYourFood\war\WEB-INF\lib\javax.mail-1.5.1.jar"/>
+			<fileset file="C:\justyour.com\git\MetaReceipe\JustYourFood\war\WEB-INF\lib\opennlp-tools-1.5.3.jar"/>
+			<fileset file="C:\justyour.com\git\MetaReceipe\JustYourFood\war\WEB-INF\lib\mesp1.02.jar"/>
+			<fileset file="C:\justyour.com\git\MetaReceipe\RecettesKparK\war\WEB-INF\lib\derby.jar"/>
+			<fileset file="D:\eclipse\eclipse-jee-kepler-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar"/>
+			<fileset file="D:\eclipse\eclipse-jee-kepler-R-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar"/>
+			<fileset file="D:\eclipse\eclipse-jee-kepler-R-win32-x86_64\eclipse\plugins\com.google.gwt.eclipse.sdkbundle_2.5.1\gwt-2.5.1\gwt-dev.jar"/>
+			<fileset file="D:\eclipse\eclipse-jee-kepler-R-win32-x86_64\eclipse\plugins\com.google.gwt.eclipse.sdkbundle_2.5.1\gwt-2.5.1\validation-api-1.0.0.GA-sources.jar"/>
+			<fileset file="D:\eclipse\eclipse-jee-kepler-R-win32-x86_64\eclipse\plugins\com.google.gwt.eclipse.sdkbundle_2.5.1\gwt-2.5.1\validation-api-1.0.0.GA.jar"/>
+			<fileset file="C:\justyour.com\workspace\libraries\EclipseLink 2.5.0 - Kepler\eclipselink\jlib\eclipselink.jar"/>
+			<fileset file="C:\justyour.com\workspace\libraries\EclipseLink 2.5.0 - Kepler\eclipselink\jlib\jpa\javax.persistence_2.1.0.v201304241213.jar"/>
+			<fileset file="C:\justyour.com\workspace\libraries\EclipseLink 2.5.0 - Kepler\eclipselink\jlib\jpa\org.eclipse.persistence.jpa.modelgen_2.5.0.v20130507-3faac2b.jar"/>
+			<fileset file="C:\justyour.com\workspace\libraries\EclipseLink 2.5.0 - Kepler\eclipselink\jlib\jpa\org.eclipse.persistence.jpars_2.5.0.v20130507-3faac2b.jar"/>
+			<fileset file="C:\justyour.com\workspace\libraries\EclipseLink 2.5.0 - Kepler\eclipselink\jlib\moxy\com.sun.tools.xjc_2.2.0.jar"/>
+			<fileset file="C:\justyour.com\workspace\libraries\EclipseLink 2.5.0 - Kepler\eclipselink\jlib\moxy\com.sun.xml.bind_2.2.0.v201004141950.jar"/>
+			<fileset file="C:\justyour.com\workspace\libraries\EclipseLink 2.5.0 - Kepler\eclipselink\jlib\moxy\javax.activation_1.1.0.v201108011116.jar"/>
+			<fileset file="C:\justyour.com\workspace\libraries\EclipseLink 2.5.0 - Kepler\eclipselink\jlib\moxy\javax.mail_1.4.0.v201005080615.jar"/>
+			<fileset file="C:\justyour.com\workspace\libraries\EclipseLink 2.5.0 - Kepler\eclipselink\jlib\moxy\javax.xml.bind_2.2.0.v201105210648.jar"/>
+			<fileset file="C:\justyour.com\workspace\libraries\EclipseLink 2.5.0 - Kepler\eclipselink\jlib\moxy\javax.xml.stream_1.0.1.v201004272200.jar"/>
+			<fileset file="C:\justyour.com\workspace\TestCrawlJ\target\classes"/>
+			<fileset file="C:\Users\tonio\.m2\repository\edu\uci\ics\crawler4j\3.5\crawler4j-3.5.jar"/>
+			<fileset file="C:\Users\tonio\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar"/>
+			<fileset file="C:\Users\tonio\.m2\repository\org\apache\httpcomponents\httpclient\4.2.3\httpclient-4.2.3.jar"/>
+			<fileset file="C:\Users\tonio\.m2\repository\org\apache\httpcomponents\httpcore\4.2.2\httpcore-4.2.2.jar"/>
+			<fileset file="C:\Users\tonio\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar"/>
+			<fileset file="C:\Users\tonio\.m2\repository\commons-codec\commons-codec\1.6\commons-codec-1.6.jar"/>
+			<fileset file="C:\Users\tonio\.m2\repository\com\sleepycat\je\4.0.92\je-4.0.92.jar"/>
+			<fileset file="C:\Users\tonio\.m2\repository\org\apache\tika\tika-parsers\1.0\tika-parsers-1.0.jar"/>
+			<fileset file="C:\Users\tonio\.m2\repository\org\apache\tika\tika-core\1.0\tika-core-1.0.jar"/>
+			<fileset file="C:\Users\tonio\.m2\repository\org\apache\james\apache-mime4j-core\0.7\apache-mime4j-core-0.7.jar"/>
+			<fileset file="C:\Users\tonio\.m2\repository\org\apache\james\apache-mime4j-dom\0.7\apache-mime4j-dom-0.7.jar"/>
+			<fileset file="C:\Users\tonio\.m2\repository\org\apache\commons\commons-compress\1.3\commons-compress-1.3.jar"/>
+			<fileset file="C:\Users\tonio\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0.1\geronimo-stax-api_1.0_spec-1.0.1.jar"/>
+			<fileset file="C:\Users\tonio\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar"/>
+			<fileset file="C:\Users\tonio\.m2\repository\asm\asm\3.1\asm-3.1.jar"/>
+			<fileset file="C:\Users\tonio\.m2\repository\com\drewnoakes\metadata-extractor\2.4.0-beta-1\metadata-extractor-2.4.0-beta-1.jar"/>
+			<fileset file="C:\Users\tonio\.m2\repository\de\l3s\boilerpipe\boilerpipe\1.1.0\boilerpipe-1.1.0.jar"/>
+		</copy>
+		<!--=== TestCrawlJ ===-->
+		<jar destfile='war/WEB-INF/lib/TestCrawlJ.jar'>
+			<fileset dir="C:/justyour.com/workspace/TestCrawlJ/src">
+				<include name="**"/>
+			</fileset>
+			<fileset dir="C:/justyour.com/workspace/TestCrawlJ/testSrc">
+				<include name="**"/>
+			</fileset>
+			<fileset dir="C:/justyour.com/workspace/TestCrawlJ/target/classes">
+				<include name="**/*.class"/>
+			</fileset>
+			<fileset dir="C:/justyour.com/workspace/TestCrawlJ/target/classes">
+				<include name="**/*.class"/>
+			</fileset>
+		</jar>		
+	</target>
+
+	<target name="gwt-compile" description="Compile to JavaScript">
+		<java classname="com.google.gwt.dev.Compiler" fork="yes" failonerror="true" maxmemory="1024m">
+			<classpath>
+				<pathelement location="C:/justyour.com/git/MetaReceipe/JustYourFood/testSrc" />
+				<pathelement location="C:/justyour.com/git/MetaReceipe/JustYourFood/src" />
+				<pathelement location="C:/justyour.com/workspace/TestCrawlJ/src" />
+				<pathelement location="C:/justyour.com/workspace/TestCrawlJ/testSrc" />
+				<pathelement location="C:/justyour.com/git/MetaReceipe/JustYourFood/war/WEB-INF/lib/a_httpclient-4.2.3.jar" />
+				<pathelement location="C:/justyour.com/git/MetaReceipe/JustYourFood/war/WEB-INF/lib/commons-exec-1.1.jar" />
+				<pathelement location="C:/justyour.com/git/MetaReceipe/JustYourFood/target/classes" />
+				<pathelement location="C:/justyour.com/git/MetaReceipe/JustYourFood/war/WEB-INF/lib/solr-solrj-4.4.0.jar" />
+				<pathelement location="C:/justyour.com/git/MetaReceipe/JustYourFood/war/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" />
+				<pathelement location="C:/justyour.com/git/MetaReceipe/JustYourFood/war/WEB-INF/lib/slf4j-api-1.6.6.jar" />
+				<pathelement location="C:/justyour.com/git/MetaReceipe/JustYourFood/war/WEB-INF/lib/log4j-1.2.16.jar" />
+				<pathelement location="C:/justyour.com/git/MetaReceipe/JustYourFood/war/WEB-INF/lib/httpcore-4.2.2.jar" />
+				<pathelement location="C:/justyour.com/git/MetaReceipe/JustYourFood/war/WEB-INF/lib/javax.mail-1.5.1.jar" />
+				<pathelement location="C:/justyour.com/git/MetaReceipe/JustYourFood/war/WEB-INF/lib/opennlp-tools-1.5.3.jar" />
+				<pathelement location="C:/justyour.com/git/MetaReceipe/JustYourFood/war/WEB-INF/lib/mesp1.02.jar" />
+				<pathelement location="C:/justyour.com/git/MetaReceipe/RecettesKparK/war/WEB-INF/lib/derby.jar" />
+				<pathelement location="D:/eclipse/eclipse-jee-kepler-R-win32-x86_64/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar" />
+				<pathelement location="D:/eclipse/eclipse-jee-kepler-R-win32-x86_64/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar" />
+				<pathelement location="D:/eclipse/eclipse-jee-kepler-R-win32-x86_64/eclipse/plugins/com.google.gwt.eclipse.sdkbundle_2.5.1/gwt-2.5.1/gwt-user.jar" />
+				<pathelement location="D:/eclipse/eclipse-jee-kepler-R-win32-x86_64/eclipse/plugins/com.google.gwt.eclipse.sdkbundle_2.5.1/gwt-2.5.1/gwt-dev.jar" />
+				<pathelement location="D:/eclipse/eclipse-jee-kepler-R-win32-x86_64/eclipse/plugins/com.google.gwt.eclipse.sdkbundle_2.5.1/gwt-2.5.1/validation-api-1.0.0.GA-sources.jar" />
+				<pathelement location="D:/eclipse/eclipse-jee-kepler-R-win32-x86_64/eclipse/plugins/com.google.gwt.eclipse.sdkbundle_2.5.1/gwt-2.5.1/validation-api-1.0.0.GA.jar" />
+				<pathelement location="C:/justyour.com/workspace/libraries/EclipseLink 2.5.0 - Kepler/eclipselink/jlib/eclipselink.jar" />
+				<pathelement location="C:/justyour.com/workspace/libraries/EclipseLink 2.5.0 - Kepler/eclipselink/jlib/jpa/javax.persistence_2.1.0.v201304241213.jar" />
+				<pathelement location="C:/justyour.com/workspace/libraries/EclipseLink 2.5.0 - Kepler/eclipselink/jlib/jpa/org.eclipse.persistence.jpa.modelgen_2.5.0.v20130507-3faac2b.jar" />
+				<pathelement location="C:/justyour.com/workspace/libraries/EclipseLink 2.5.0 - Kepler/eclipselink/jlib/jpa/org.eclipse.persistence.jpars_2.5.0.v20130507-3faac2b.jar" />
+				<pathelement location="C:/justyour.com/workspace/libraries/EclipseLink 2.5.0 - Kepler/eclipselink/jlib/moxy/com.sun.tools.xjc_2.2.0.jar" />
+				<pathelement location="C:/justyour.com/workspace/libraries/EclipseLink 2.5.0 - Kepler/eclipselink/jlib/moxy/com.sun.xml.bind_2.2.0.v201004141950.jar" />
+				<pathelement location="C:/justyour.com/workspace/libraries/EclipseLink 2.5.0 - Kepler/eclipselink/jlib/moxy/javax.activation_1.1.0.v201108011116.jar" />
+				<pathelement location="C:/justyour.com/workspace/libraries/EclipseLink 2.5.0 - Kepler/eclipselink/jlib/moxy/javax.mail_1.4.0.v201005080615.jar" />
+				<pathelement location="C:/justyour.com/workspace/libraries/EclipseLink 2.5.0 - Kepler/eclipselink/jlib/moxy/javax.xml.bind_2.2.0.v201105210648.jar" />
+				<pathelement location="C:/justyour.com/workspace/libraries/EclipseLink 2.5.0 - Kepler/eclipselink/jlib/moxy/javax.xml.stream_1.0.1.v201004272200.jar" />
+				<pathelement location="C:/justyour.com/workspace/TestCrawlJ/target/classes" />
+				<pathelement location="C:/Users/tonio/.m2/repository/edu/uci/ics/crawler4j/3.5/crawler4j-3.5.jar" />
+				<pathelement location="C:/Users/tonio/.m2/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar" />
+				<pathelement location="C:/Users/tonio/.m2/repository/org/apache/httpcomponents/httpclient/4.2.3/httpclient-4.2.3.jar" />
+				<pathelement location="C:/Users/tonio/.m2/repository/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.jar" />
+				<pathelement location="C:/Users/tonio/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
+				<pathelement location="C:/Users/tonio/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar" />
+				<pathelement location="C:/Users/tonio/.m2/repository/com/sleepycat/je/4.0.92/je-4.0.92.jar" />
+				<pathelement location="C:/Users/tonio/.m2/repository/org/apache/tika/tika-parsers/1.0/tika-parsers-1.0.jar" />
+				<pathelement location="C:/Users/tonio/.m2/repository/org/apache/tika/tika-core/1.0/tika-core-1.0.jar" />
+				<pathelement location="C:/Users/tonio/.m2/repository/org/apache/james/apache-mime4j-core/0.7/apache-mime4j-core-0.7.jar" />
+				<pathelement location="C:/Users/tonio/.m2/repository/org/apache/james/apache-mime4j-dom/0.7/apache-mime4j-dom-0.7.jar" />
+				<pathelement location="C:/Users/tonio/.m2/repository/org/apache/commons/commons-compress/1.3/commons-compress-1.3.jar" />
+				<pathelement location="C:/Users/tonio/.m2/repository/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1.jar" />
+				<pathelement location="C:/Users/tonio/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar" />
+				<pathelement location="C:/Users/tonio/.m2/repository/asm/asm/3.1/asm-3.1.jar" />
+				<pathelement location="C:/Users/tonio/.m2/repository/com/drewnoakes/metadata-extractor/2.4.0-beta-1/metadata-extractor-2.4.0-beta-1.jar" />
+				<pathelement location="C:/Users/tonio/.m2/repository/de/l3s/boilerpipe/boilerpipe/1.1.0/boilerpipe-1.1.0.jar" />
+				<pathelement location="D:/eclipse/eclipse-jee-kepler-R-win32-x86_64/eclipse/plugins/com.google.gwt.eclipse.sdkbundle_2.5.1/gwt-2.5.1/gwt-dev.jar" />
+			</classpath>
+			<arg value="-style"/>
+			<arg value="OBFUSCATED"/>
+			<arg value="${gwt.module.id}" />
+		</java>
+	</target>
+
+	<target name="war" depends="gwt-compile, jars">
+		<delete file="${war.name}" />
+		<jar destfile="${war.name}" basedir="war" duplicate="preserve" />
+	</target>
+	
+	<target name="deploy" depends="war">
+		<move file="${war.name}" todir="C:/justyour.com" />
+	</target>
+
+	<target name="all" depends="deploy" />
+
+</project>

@@ -1,0 +1,26 @@
+FRANCAIS
+---------------------------------------------------------
+http://undinerpresqueparfait.m6.fr/recettes-de-cuisine/
+---------------------------------------------------------
+http://recettes.doctissimo.fr/
+http://recettes.doctissimo.fr/plats/ - pour les plats
+http://recettes.doctissimo.fr/entrees/ - pour les entrees		
+---------------------------------------------------------
+http://www.cuisinezaz.com
+
+http://allrecipes.fr/recettes/
+
+ANGLAIS
+---------------------------------------------------------
+http://www.mindbodygreen.com/tag/healthy-recipes
+
+
+
+---------------------------------------------------------
+
+# Wget examples
+wget -r -c -l2 www.cuisinezaz.com
+
+wget -r -c www.doctissimo.com
+
+wget -x -r -c --load-cookies cookies.txt http://www.marmiton.org/recettes/

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>equivalence properties</comment>
+
+<!-- GRAMMES -->
+<entry key="g">g</entry>
+
+<!-- KILOS GRAMMES -->
+<entry key="kg">kg</entry>
+
+<!-- CUILLERE -->
+<entry key="cuillerée">cuillere</entry>
+<entry key="c.">cuillere</entry>
+<entry key="cuilleres">cuillere</entry>
+<entry key="cuillere(s)">cuillere</entry>
+
+<!-- CENTI LITRES -->
+<entry key="cl">cl</entry>
+
+<!-- DECI LITRES -->
+<entry key="dc">dc</entry>
+
+<!-- TRANCHES -->
+<entry key="tranches">tranche</entry>
+<entry key="tranche">tranche</entry>
+<entry key="tranche(s)">tranche</entry>
+
+<!--  GOUSSE -->
+<entry key="gousse">gousse</entry>
+<entry key="gousses">gousse</entry>
+<entry key="gousse(s)">gousse</entry>
+
+<!--  VERRE -->
+<entry key="verre">verre</entry>
+<entry key="verre(s)">verre</entry>
+<entry key="verres">verre</entry>
+
+<!--  BOUTEILLE -->
+<entry key="bouteille">bouteille</entry>
+<entry key="bouteilles">bouteille</entry>
+<entry key="bouteille(s)">bouteille</entry>
+
+<!--  PINCEE -->
+<entry key="pincee">pincee</entry>
+<entry key="pincee(s)">pincee</entry>
+<entry key="pincees">pincee</entry>
+
+<!-- BOITES -->
+<entry key="boite">boite</entry>
+<entry key="boites">boite</entry>
+<entry key="boite(s)">boite</entry>
+
+<!-- SACHET -->
+<entry key="sachet">sachet</entry>
+<entry key="sachets">sachet</entry>
+<entry key="sachet(s)">sachet</entry>
+
+</properties>

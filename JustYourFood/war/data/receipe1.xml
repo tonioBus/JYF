@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:receipeModel xmlns:ns2="com.justyour.food.shared.jpa.models">
+	<interpretationLevel>1.0</interpretationLevel>
+	<wellFormed>false</wellFormed>
+	<title>La galette pour tous</title>
+	<number>0</number>
+	<creationDate>2014-01-02T00:00:00+01:00</creationDate>
+	<domain>http://justyourfood.com</domain>
+	<source>http://justyourfood.com/#account;sophie_capbern;
+	</source>
+	<link>
+	</link>
+	<cookingSecondSentence>25 mn</cookingSecondSentence>
+	<cookingSecond>1500.0</cookingSecond>
+	<preparationSecondSentence>10 mn</preparationSecondSentence>
+	<preparationSecond>600.0</preparationSecond>
+	<restSecondSentence>not defined</restSecondSentence>
+	<restSecond>0.0</restSecond>
+	<energie>-1.0</energie>
+	<remark>?remark?</remark>
+	<numberPersonsSentence>2</numberPersonsSentence>
+	<numberPersons>2</numberPersons>
+	<difficultySentence>Facile</difficultySentence>
+	<difficulty>0</difficulty>
+	<instructions>Et voilà les étapes pour faire une délicieuse galette des
+		rois à la frangipane :
+
+		1. Préparez la frangipane : battez 1 oeuf entier
+		et un blanc d’oeuf avec
+		la poudre
+
+		d’amandes, le beurre et le sucre.
+		Conservez le jaune pour dorer la galette.
+		Ajoutez la
+
+		farine et l’alcool
+		choisi.
+
+		2. Déroulez la pâte feuilletée sur une plaque, étalez la
+		frangipane et
+		déposez 1 fève.
+
+		3. Couvrez la galette avec la deuxième
+		pâte. Soudez les bords avec un
+		peu d’eau ou de
+
+		blancs d’oeufs si
+		nécessaire.
+
+		4. Badigeonnez le dessus de la galette d’un peu de jaune
+		d’oeuf, à
+		l’aide d’un pinceau.
+
+		Enfournez 20 à 25 min dans le four
+		préchauffé à 200°C.
+
+		5. Servez la galette des rois à la frangipane tiède
+		ou froid.
+	</instructions>
+	<imageURL>http://mf.imdoc.fr/content/3/7/3/493735/salade-de-poulet-facon-thai.jpg
+	</imageURL>
+	<price>1</price>
+	<priceSentence>Economique</priceSentence>
+	<ingredientsRPC>
+		<id>1</id>
+		<details>2 pâtes feuilletées</details>
+		<adjectif>fermier rouge</adjectif>
+		<corrected>0</corrected>
+		<ingredient>
+			<ingredient>blancs de poulet label</ingredient>
+			<numberReceipes>1</numberReceipes>
+		</ingredient>
+		<ingredientSz>blancs de poulet label</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>2.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+		<interpretationLevel>1.0</interpretationLevel>
+	</ingredientsRPC>
+	<ingredientsRPC>
+		<id>2</id>
+		<details>2 cuillers à café de poudre de curry</details>
+		<adjectif></adjectif>
+		<corrected>0</corrected>
+		<ingredient>
+			<ingredient>cuillers à de poudre de curry</ingredient>
+			<numberReceipes>1</numberReceipes>
+		</ingredient>
+		<ingredientSz>cuillers à de poudre de curry</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>2.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+			<unity>cafe</unity>
+		</quantitiesRPC>
+		<quantitiesRPC>
+			<numeral>
+				<number>0.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+		<interpretationLevel>1.0</interpretationLevel>
+	</ingredientsRPC>
+	<ingredientsRPC>
+		<id>3</id>
+		<details>100 g de vermicelles ou nouilles asiatiques</details>
+		<adjectif></adjectif>
+		<corrected>0</corrected>
+		<ingredient>
+			<ingredient>vermicelles</ingredient>
+			<numberReceipes>3</numberReceipes>
+		</ingredient>
+		<ingredientSz>vermicelles</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>100.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+			<unity>gramme</unity>
+		</quantitiesRPC>
+		<quantitiesRPC>
+			<numeral>
+				<number>0.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+		<interpretationLevel>1.0</interpretationLevel>
+		<orNext>
+			<id>4</id>
+			<details>100 g de vermicelles ou nouilles asiatiques</details>
+			<adjectif>asiatiques</adjectif>
+			<corrected>0</corrected>
+			<ingredient>
+				<ingredient>nouilles</ingredient>
+				<numberReceipes>4</numberReceipes>
+			</ingredient>
+			<ingredientSz>nouilles</ingredientSz>
+			<quantitiesRPC>
+				<numeral>
+					<number>0.0</number>
+					<type>DOUBLE</type>
+				</numeral>
+			</quantitiesRPC>
+			<interpretationLevel>1.0</interpretationLevel>
+		</orNext>
+	</ingredientsRPC>
+	<ingredientsRPC>
+		<id>5</id>
+		<details>1 /3 de concombre</details>
+		<adjectif></adjectif>
+		<corrected>0</corrected>
+		<ingredient>
+			<ingredient>/3 de concombre</ingredient>
+			<numberReceipes>1</numberReceipes>
+		</ingredient>
+		<ingredientSz>/3 de concombre</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>1.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+		<interpretationLevel>1.0</interpretationLevel>
+	</ingredientsRPC>
+	<ingredientsRPC>
+		<id>6</id>
+		<details>1 petit oignon rouge</details>
+		<adjectif>petit rouge</adjectif>
+		<corrected>0</corrected>
+		<ingredient>
+			<ingredient>oignon</ingredient>
+			<numberReceipes>265</numberReceipes>
+		</ingredient>
+		<ingredientSz>oignon</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>1.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+		<interpretationLevel>1.0</interpretationLevel>
+	</ingredientsRPC>
+	<ingredientsRPC>
+		<id>7</id>
+		<details>2 tiges de menthe</details>
+		<adjectif></adjectif>
+		<corrected>0</corrected>
+		<ingredient>
+			<ingredient>tiges de menthe</ingredient>
+			<numberReceipes>2</numberReceipes>
+		</ingredient>
+		<ingredientSz>tiges de menthe</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>2.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+		<interpretationLevel>1.0</interpretationLevel>
+	</ingredientsRPC>
+	<ingredientsRPC>
+		<id>8</id>
+		<details>10 brins de coriandre</details>
+		<adjectif></adjectif>
+		<corrected>0</corrected>
+		<ingredient>
+			<ingredient>coriandre</ingredient>
+			<numberReceipes>10</numberReceipes>
+		</ingredient>
+		<ingredientSz>coriandre</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>10.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+			<unity>brin</unity>
+		</quantitiesRPC>
+		<quantitiesRPC>
+			<numeral>
+				<number>0.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+		<interpretationLevel>1.0</interpretationLevel>
+	</ingredientsRPC>
+	<ingredientsRPC>
+		<id>9</id>
+		<details>feuilles de salade (romaine, sucrine, iceberg)</details>
+		<adjectif></adjectif>
+		<corrected>0</corrected>
+		<ingredient>
+			<ingredient>feuilles de salade</ingredient>
+			<numberReceipes>10</numberReceipes>
+		</ingredient>
+		<ingredientSz>feuilles de salade</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>0.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+		<interpretationLevel>1.0</interpretationLevel>
+	</ingredientsRPC>
+	<ingredientsRPC>
+		<id>10</id>
+		<details>1 cuiller à soupe de cacahuètes salées</details>
+		<adjectif></adjectif>
+		<corrected>0</corrected>
+		<ingredient>
+			<ingredient>cuiller à de cacahuètes</ingredient>
+			<numberReceipes>1</numberReceipes>
+		</ingredient>
+		<ingredientSz>cuiller à de cacahuètes</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>1.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+			<unity>soupe</unity>
+		</quantitiesRPC>
+		<quantitiesRPC>
+			<numeral>
+				<number>0.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+		<interpretationLevel>1.0</interpretationLevel>
+	</ingredientsRPC>
+	<ingredientsRPC>
+		<id>11</id>
+		<details>1 cuiller à soupe d'huile (sésame ou tournesol)</details>
+		<adjectif></adjectif>
+		<corrected>0</corrected>
+		<ingredient>
+			<ingredient>cuiller à d' huile</ingredient>
+			<numberReceipes>1</numberReceipes>
+		</ingredient>
+		<ingredientSz>cuiller à d' huile</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>1.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+			<unity>soupe</unity>
+		</quantitiesRPC>
+		<quantitiesRPC>
+			<numeral>
+				<number>0.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+		<interpretationLevel>1.0</interpretationLevel>
+	</ingredientsRPC>
+	<ingredientsRPC>
+		<id>12</id>
+		<details>1 cuiller à soupe de sauce poisson (nuoc nâm)</details>
+		<adjectif></adjectif>
+		<corrected>0</corrected>
+		<ingredient>
+			<ingredient>cuiller à de sauce poisson</ingredient>
+			<numberReceipes>1</numberReceipes>
+		</ingredient>
+		<ingredientSz>cuiller à de sauce poisson</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>1.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+			<unity>soupe</unity>
+		</quantitiesRPC>
+		<quantitiesRPC>
+			<numeral>
+				<number>0.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+		<interpretationLevel>1.0</interpretationLevel>
+	</ingredientsRPC>
+	<ingredientsRPC>
+		<id>13</id>
+		<details>2 cuillers à soupe de sauce soja</details>
+		<adjectif></adjectif>
+		<corrected>0</corrected>
+		<ingredient>
+			<ingredient>cuillers à de sauce</ingredient>
+			<numberReceipes>1</numberReceipes>
+		</ingredient>
+		<ingredientSz>cuillers à de sauce</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>2.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+			<unity>soupe</unity>
+		</quantitiesRPC>
+		<quantitiesRPC>
+			<numeral>
+				<number>0.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+		<interpretationLevel>1.0</interpretationLevel>
+	</ingredientsRPC>
+	<ingredientsRPC>
+		<id>14</id>
+		<details>2 cuillers à café de jus de citron</details>
+		<adjectif></adjectif>
+		<corrected>0</corrected>
+		<ingredient>
+			<ingredient>cuillers à de jus de citron</ingredient>
+			<numberReceipes>1</numberReceipes>
+		</ingredient>
+		<ingredientSz>cuillers à de jus de citron</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>2.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+			<unity>cafe</unity>
+		</quantitiesRPC>
+		<quantitiesRPC>
+			<numeral>
+				<number>0.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+		<interpretationLevel>1.0</interpretationLevel>
+	</ingredientsRPC>
+	<ingredientsRPC>
+		<id>15</id>
+		<details>1 cuiller à café de sucre en poudre</details>
+		<adjectif></adjectif>
+		<corrected>0</corrected>
+		<ingredient>
+			<ingredient>cuiller à de sucre en poudre</ingredient>
+			<numberReceipes>1</numberReceipes>
+		</ingredient>
+		<ingredientSz>cuiller à de sucre en poudre</ingredientSz>
+		<quantitiesRPC>
+			<numeral>
+				<number>1.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+			<unity>cafe</unity>
+		</quantitiesRPC>
+		<quantitiesRPC>
+			<numeral>
+				<number>0.0</number>
+				<type>DOUBLE</type>
+			</numeral>
+		</quantitiesRPC>
+		<interpretationLevel>1.0</interpretationLevel>
+	</ingredientsRPC>
+</ns2:receipeModel>

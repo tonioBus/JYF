@@ -1,0 +1,42 @@
+Metric	Tbs/Cup	Fluid Oz.	Grams
+2 Tbs		1				30
+1/4 cup		2				60
+-			3				85
+125 ml
+1/2 cup		4				115
+-			5				140
+3/4 cup		6				180
+250 ml
+1 cup		8				225
+-			9				250
+1-1/4 cup	10				285
+1-1/2 cup	12				340
+1-3/4 cup	14				400
+500 ml
+2 cup|1 pint 16				450
+2-1/2 cup	20				560
+750 ml
+3 cup		24				675
+3-1/2 cup	28				800
+1 lt
+4 cup, 1 qt	32				900
+5 cup		40	
+6 cup		48	
+2 lt
+8 cup|2 qt	64	
+10 cup		80	
+3 lt
+12 cup|3 qt 96	
+4 qt	128
+
+Measurements and Abbreviations
+1 cl	1 centilitre	1/100 litre; 10 ml	0.34 fluid oz.	
+1 ml	1 millilitre	1/1000 litre; 1/10 cl	0.03 fluid oz.	
+1 dl	1 décalitre	1/10 litre; 100 ml; 10 cl	3.5 fluid oz	just under 1/2 cup
+1 lt	1 litre	1000 ml; 100 cl	1.06 qt	4.23 cup
+c. à soupe (c.s.)	cuiller à soupe *	tablespoon	
+c. à café (c.c.)	cuiller à café *	teaspoon	
+gousse (d'ail)	clove (of garlic)		
+botte (de persil)	sprig (of parsely		
+levure chimique	    baking powder: 1 sachet = a bit more that 2 teaspoons
+g	gram		
